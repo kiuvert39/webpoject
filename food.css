@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(240, 139, 7) , rgb(240, 215, 195));
+  
+}
+
+.viewMain{
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    padding: 8px;
+    margin:70px;
+    box-shadow: 12px 11px 11px rgb(177, 76, 76);
+
+}
+
+.nav{
+    padding-bottom: 15px;
+    margin-left: 26%;
+}
+.panel1,.panel2,.panel3,.panel4,.panel5,.panel6,.panel7{
+    border: none;
+    margin-inline: 30px;
+    font-size: 16px;
+}
+
+.decrip,.viewmore{
+    margin: 90px;
+}
+.decrip{
+    font-size:3rem;
+    font-family: "Sofia", sans-serif;
+}
+.view1,.view2{
+      color: rgb(9, 10, 10);
+    border: 2px solide;
+    transition: all 0,23s;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    box-shadow: 10px 5px 5px rgb(177, 76, 76);
+}
+.view2:hover{
+    border-color: rgb(128, 192, 8);
+    box-shadow: o 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    border-radius: 10px;
+    transition-delay: 0.2s;
+}
+.view1:hover{
+    border-color: rgb(128, 192, 8);
+    box-shadow: o 0.5em 0.5em -0.4em #dce950;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    border-radius: 10px;
+    transition-delay: 0.2s;
+}
+.image{
+    height: 370px;
+    text-align: left;
+    width: 380px;
+    position: relative;
+    left: 60%;
+    bottom: 78%;
+    border-radius: 20px;
+}  
+
+.fa-solid{
+    position: relative;
+    right: 290px;
+}
+.logo{
+    height: 160px;
+    margin-top: 45px;
+    margin-left: 10px;
+    border-radius: 120px;
+    
+}
+.fa-cart-shopping{
+    position:relative;
+    left: 1px;
+    font-size: large;
+}          
